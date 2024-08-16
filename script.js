@@ -10,7 +10,7 @@ bodyEL.addEventListener("mousemove", (event)=>{
     spanEl.style.top = yPos + "px";
 
     //For random Size of the icon
-    const size = Math.random()*100 + 25;
+    const size = Math.random()*75 + 50;
     spanEl.style.width = size + "px";
     spanEl.style.height = size + "px";
 
@@ -18,5 +18,5 @@ bodyEL.addEventListener("mousemove", (event)=>{
     bodyEL.appendChild(spanEl);
     setTimeout(()=>{
         spanEl.remove()
-    }, 3000)
+    }, 5000)
 })
